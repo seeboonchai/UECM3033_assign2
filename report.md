@@ -31,7 +31,7 @@ There are 800 non zero element in $Sigma$
 
 Put here your lower and better resolution pictures. Explain how you generate
 these pictures from `task2.py`.
-![high and low resolution picture.tiff](high and low resolution picture.tiff)
+![cameratransform.tiff](cameratransform.tiff)
 
  From beginning, i created a  singular value decomposition function which also known as svd function.Next,i read the image which is then compressed by keeping the first 30 non zero elements as $\Sigma$ and then  i set other non zero elements to zero,all this is first for red matrix. After that i repeat the same process by using green and blue matrix.From this task, i put in n=30 for lower resolution and n=200 for better resolution.
 
