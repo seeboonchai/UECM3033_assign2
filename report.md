@@ -38,7 +38,7 @@ this is my high resolution image, n=200
 
 ![high.tiff](high.tiff)
 
- From beginning, i created a  singular value decomposition function which also known as svd function.Next,i read the image which is then compressed by keeping the first 30 non zero elements as $\Sigma$ and then  i set other non zero elements to zero,all this is first for red matrix. After that i repeat the same process by using green and blue matrix.From this task, i put in n=30 for lower resolution and n=200 for better resolution.
+ From beginning,red,green,blue matrix obtain from camera.tiff Next decomposition of 3 matrices is done using np.linalg.svd,then,i read the image which is then compressed by keeping the first 30 non zero elements as $\Sigma$ and then  i set other non zero elements to zero for better solution also apply to this..From this task, i put in n=30 for lower resolution and n=200 for better resolution.
 
 
 
